@@ -6,9 +6,9 @@ class Controller(BaseController):
   A simple PID controller
   """
   def __init__(self,):
-    self.p = 0.195
-    self.i = 0.100
-    self.d = -0.053
+    self.p = 0.2
+    self.i = 0.05
+    self.d = -0.05
     self.error_integral = 0
     self.prev_error = 0
 
